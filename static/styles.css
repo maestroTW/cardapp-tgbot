@@ -3,3 +3,11 @@ h1 {
     justify-content: center;
     display: flex;
 }
+h2 {
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+body {
+    background-color: white;
+}
