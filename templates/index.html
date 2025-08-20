@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>TGAPP</title>
     <link rel='stylesheet' href="../static/styles.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="../static/script.js"></script>
 </head>
 <body>
-<h1>TEST</h1>
+<h1>MY TG CARD</h1>
 <div id="avatar-container"></div>
+<p>avatar doesn't work yet :(</p>
 <h2 id="username"></h2>
 <h2 id="name"></h2>
+    <div class="button-container">
+        <button class="round-button red" onclick="changeBackground('linear-gradient(135deg, #ff6b6b 0%, #c0392b 100%)')"></button>
+        <button class="round-button blue" onclick="changeBackground('linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)')"></button>
+        <button class="round-button green" onclick="changeBackground('linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)')"></button>
+        <button class="round-button purple" onclick="changeBackground('linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)')"></button>
+    </div>
 </body>
 </html>

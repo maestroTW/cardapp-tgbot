@@ -8,6 +8,69 @@ h2 {
     justify-content: center;
     display: flex;
 }
+p {
+    justify-content: center;
+    display: flex;
+}
 body {
-    background-color: white;
+    background: white;
+}
+#avatar-container {
+    justify-content: center;
+    display: flex;
+}
+.theme-changer  {
+    width: 30px; height: 30px;
+    background-color: #e03e25;
+    border-radius: 50%;
+    border: none;
+    vertical-align: top;
+    justify-content: center;
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.round-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.round-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.round-button:active {
+    transform: scale(0.95);
+}
+
+.red {
+    background: linear-gradient(145deg, #ff6b6b, #c0392b);
+}
+
+.blue {
+    background: linear-gradient(145deg, #4facfe, #00f2fe);
+}
+
+.green {
+    background: linear-gradient(145deg, #43e97b, #38f9d7);
+}
+
+.purple {
+    background: linear-gradient(145deg, #a18cd1, #fbc2eb);
 }
